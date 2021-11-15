@@ -1,6 +1,6 @@
 
 function play(){
-    var audio = document.getElementById("audio");
+    var audio = document.getElementsByClassName("audio");
     audio.play();
 }
 
