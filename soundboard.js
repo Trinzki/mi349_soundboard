@@ -16,6 +16,7 @@ function playAudio(input){
     }
 
     var sound = document.getElementById(id)
+    alert(id);
     sound.play();
 }
 
