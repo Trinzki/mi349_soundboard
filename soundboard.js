@@ -6,4 +6,4 @@ function play(){
 
 
 let myButton = document.querySelector('button');
-myButton.onclick = play();
+myButton.addEventListener("click", play());
