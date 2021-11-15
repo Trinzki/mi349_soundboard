@@ -6,7 +6,7 @@ function playAudio(){
 }
 
 
-document.getElementById("boing").addEventListener("click", playAudio());
-document.getElementById('bubbling').addEventListener("click", play());
+document.getElementById("boing").addEventListener("click", playAudio);
+document.getElementById('bubbling').addEventListener("click", play);
 let cymbalBtn = document.getElementById('cymbals');
-cymbalBtn.addEventListener("click", play());
+cymbalBtn.addEventListener("click", play);
