@@ -15,7 +15,8 @@ function playAudio(input){
         return;
     }
 
-    document.getElementById(id).play();
+    var sound = document.getElementById(id)
+    sound.play();
 }
 
 
