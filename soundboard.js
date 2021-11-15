@@ -7,6 +7,6 @@ function play(){
 
 
 document.getElementById('boing').addEventListener("click", play());
-document.getElementById('bubble').addEventListener("click", play());
+document.getElementById('bubbling').addEventListener("click", play());
 let cymbalBtn = document.getElementById('cymbals');
 cymbalBtn.addEventListener("click", play());
