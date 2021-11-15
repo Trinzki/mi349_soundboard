@@ -1,8 +1,7 @@
 
 function playAudio(){
-    alert("Got here")
-    // var audio = document.getElementsByClassName("audio");
-    // audio.play();
+    var audio = document.getElementsByClassName("audio");
+    audio.play();
 }
 
 
