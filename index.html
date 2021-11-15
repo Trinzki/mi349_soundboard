@@ -8,21 +8,24 @@
     <title>Sound Board</title>
 </head>
 <body>
-    <button type="button" value="sound">Boing Sound
+    <button id="boing" type="button" value="sound">Boing Sound
         <audio class="audio" src="boing_x.wav">
             Your browser does not support the <code>audio </code> element.
         </audio>
     </button>
-    <button type="button" value="sound" onclick="play(2)">Bubbling Sound
+
+    <button id="bubbling" type="button" value="sound" onclick="play(2)">Bubbling Sound
         <audio class="audio" src="bubbling2.wav">
             Your browser does not support the <code>audio </code> element.
         </audio>
     </button>
-    <button type="button" value="sound">Cymbals Sound
+
+    <button id="cymbals" type="button" value="sound">Cymbals Sound
         <audio class="audio" src="cymbals.wav">
             Your browser does not support the <code>audio </code> element.
         </audio>
     </button>
+
     <script src="soundboard.js"></script>
 </body>
 </html>
