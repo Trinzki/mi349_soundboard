@@ -19,6 +19,6 @@ function playAudio(input){
 }
 
 
-document.getElementById("boing").addEventListener("click", playAudio);
-document.getElementById('bubbling').addEventListener("click", playAudio);
-document.getElementById('cymbals').addEventListener("click", playAudio);
+document.getElementById("boing").addEventListener("click", playAudio(1));
+document.getElementById('bubbling').addEventListener("click", playAudio(2));
+document.getElementById('cymbals').addEventListener("click", playAudio(3));
