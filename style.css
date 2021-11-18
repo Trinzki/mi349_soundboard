@@ -11,7 +11,7 @@ body{
 
 button{
     flex: 1;
-    padding: 200px;
+    padding: 20px;
     margin: 20px;
     border-radius: 25px;
     cursor: pointer;
