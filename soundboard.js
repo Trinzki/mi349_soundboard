@@ -16,7 +16,8 @@ function playAudio(input){
     }
 
     var sound = document.getElementById(id)
-    alert(id);
+    alert(id);  // For Debugging and making sure the function 
+                // is called with the right id
     sound.play();
 }
 
