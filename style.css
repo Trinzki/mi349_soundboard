@@ -10,14 +10,14 @@ button{
     padding: 200px;
 }
 
-.boing{
+#boing{
     background-color: aqua;
 }
 
-.bubbling{
+#bubbling{
     background-color: aquamarine;
 }
 
-.cymbals{
+#cymbals{
     background-color:blue;
 }
