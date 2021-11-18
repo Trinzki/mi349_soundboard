@@ -2,12 +2,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     margin-top: 50px;
-    font-size: 5em;
+    font-size: 25em;
 }
 
 button{
     flex: 1;
     padding: 200px;
+    margin: 20px;
 }
 
 #boing{
@@ -19,5 +20,5 @@ button{
 }
 
 #cymbals{
-    background-color:blue;
+    background-color:rgb(29, 29, 253);
 }
