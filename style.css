@@ -3,12 +3,15 @@ body{
     display: flex;
     margin-top: 50px;
     font-size: 25em;
+    font-weight: 200;
 }
 
 button{
     flex: 1;
     padding: 200px;
     margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 #boing{
@@ -20,5 +23,5 @@ button{
 }
 
 #cymbals{
-    background-color:rgb(29, 29, 253);
+    background-color:rgb(71, 71, 255);
 }
