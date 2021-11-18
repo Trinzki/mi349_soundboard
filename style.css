@@ -6,17 +6,17 @@ body{
 
 button{
     flex: 1;
-    padding: 30px;
+    padding: 300px;
 }
 
 .boing{
-    color: aqua;
+    background-color: aqua;
 }
 
 .bubbling{
-    color: aquamarine;
+    background-color: aquamarine;
 }
 
 .cymbals{
-    color:blue;
+    background-color:blue;
 }
