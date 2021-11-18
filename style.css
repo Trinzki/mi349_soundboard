@@ -1,8 +1,22 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    margin-top: 50px;
 }
 
 button{
     flex: 1;
+    padding: 30px;
+}
+
+.boing{
+    color: aqua;
+}
+
+.bubbling{
+    color: aquamarine;
+}
+
+.cymbals{
+    color:blue;
 }
