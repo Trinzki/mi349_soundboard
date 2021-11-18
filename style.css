@@ -3,14 +3,14 @@ body{
     display: flex;
     margin-top: 50px;
     font-size: 25em;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 button{
     flex: 1;
     padding: 200px;
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     cursor: pointer;
 }
 
