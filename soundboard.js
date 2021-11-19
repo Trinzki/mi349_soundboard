@@ -1,13 +1,13 @@
 
-function playAudio(input){
+function playAudio(){
     let id;
-    if (input === 1){
+    if (this === "boing"){
         id = "boing_sound";
     }
-    else if(input === 2){
+    else if(this === "bubbling"){
         id = "bubble_sound";
     }
-    else if(input === 3){
+    else if(this === "cymbals"){
         id = "cymbals_sound";
     }
     else{
@@ -22,6 +22,6 @@ function playAudio(input){
 }
 
 
-document.getElementById("boing").addEventListener("click", playAudio(1));
-document.getElementById('bubbling').addEventListener("click", playAudio(2));
-document.getElementById('cymbals').addEventListener("click", playAudio(3));
+document.getElementById("boing").addEventListener("click", playAudio);
+document.getElementById('bubbling').addEventListener("click", playAudio);
+document.getElementById('cymbals').addEventListener("click", playAudio);
